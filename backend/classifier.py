@@ -85,7 +85,6 @@ def _evaluate(model, val_df: pd.DataFrame):
     texts = val_df["sub_query"].tolist()
     true_labels = val_df["correct_agent"].tolist()
 
-    # predict_proba columns follow head.classes_ (alphabetical), not model.labels
     proba_order = list(model.model_head.classes_)
     pred_labels = list(model.predict(texts))
     probs = np.array(model.predict_proba(texts))
@@ -125,6 +124,24 @@ def _evaluate(model, val_df: pd.DataFrame):
 
 _model_cache = None
 
+def _check_lfs_pointers():
+    """Raise early if LFS pointer files were checked out instead of real binaries."""
+    checks = {
+        "model.safetensors": 10 * 1024 * 1024,  # must be > 10MB
+        "model_head.pkl": 1024,                  # must be > 1KB
+    }
+    for filename, min_size in checks.items():
+        path = os.path.join(_MODEL_PATH, filename)
+        if not os.path.exists(path):
+            raise RuntimeError(f"Missing model file: {path}")
+        size = os.path.getsize(path)
+        logger.info(f"[classifier] {filename}: {size:,} bytes")
+        if size < min_size:
+            raise RuntimeError(
+                f"{filename} is only {size} bytes — looks like an LFS pointer, not the real file. "
+                f"Run 'git lfs pull' on the server."
+            )
+
 def _load_model() -> SetFitModel:
     global _model_cache
     if _model_cache is None:
@@ -132,6 +149,7 @@ def _load_model() -> SetFitModel:
             raise RuntimeError(
                 f"No trained model found at {_MODEL_PATH}. Run classifier.train() first."
             )
+        _check_lfs_pointers()
         _model_cache = SetFitModel.from_pretrained(_MODEL_PATH)
     return _model_cache
 
