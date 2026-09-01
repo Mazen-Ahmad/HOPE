@@ -20,7 +20,7 @@ const App = () => {
   const [showResults, setShowResults] = useState(false);
   const [animateHero, setAnimateHero] = useState(false);
 
-  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || import.meta.env.BACKEND_URL || 'http://localhost:5000';
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
 
   useEffect(() => {
     setTimeout(() => setAnimateHero(true), 1000);
@@ -71,7 +71,7 @@ const App = () => {
       setTimeout(() => setShowResults(true), 300);
     } catch (err) {
       if (err.name === 'TypeError' && err.message.includes('fetch')) {
-        setError('Unable to connect to backend. Please ensure it\'s running on port 5000.');
+        setError('Unable to connect to backend.');
       } else {
         setError(`Routing failed: ${err.message}`);
       }
