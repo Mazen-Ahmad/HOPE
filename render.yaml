@@ -3,6 +3,9 @@ services:
     name: hope-backend
     env: python
     plan: free
-    buildCommand: "cd backend && pip install -r requirements.txt"
+    buildCommand: "git lfs pull && cd backend && pip install -r requirements.txt"
     startCommand: "cd backend && gunicorn app:app"
     autoDeploy: true
+    envVars:
+      - key: OPENROUTER_API_KEY
+        sync: false
