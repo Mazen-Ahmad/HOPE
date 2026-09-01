@@ -46,7 +46,7 @@ def _get_embedding(text: str) -> np.ndarray:
         _HF_API_URL,
         headers=headers,
         json={"inputs": text, "options": {"wait_for_model": True}},
-        timeout=30,
+        timeout=120,
     )
     resp.raise_for_status()
     data = resp.json()
