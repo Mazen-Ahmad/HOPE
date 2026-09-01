@@ -1,0 +1,9 @@
+{
+  "labels": [
+    "profitability_agent",
+    "liquidity_agent",
+    "product_agent",
+    "knowledge_agent"
+  ],
+  "normalize_embeddings": false
+}

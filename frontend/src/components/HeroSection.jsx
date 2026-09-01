@@ -8,20 +8,21 @@ const HeroSection = ({ animateHero }) => {
         
         <div className="mb-8 sm:mb-12 lg:mb-16">
           <h1 className="text-4xl sm:text-6xl lg:text-8xl font-script text-white/95 mb-4 sm:mb-6 lg:mb-8 tracking-widest leading-none px-2">
-            Culinary <span className="block sm:inline">Calculator</span>
+            Financial <span className="block sm:inline text-red-300">Query </span>Router
           </h1> 
         </div>
         
-        <p className="text-lg sm:text-xl lg:text-2xl text-white/60 max-w-2xl mx-auto leading-relaxed mb-8 sm:mb-10 lg:mb-12 px-4">
-          From <span className="text-emerald-300 font-medium">Noob</span> to{' '}
-          <span className="text-red-300 font-medium">Gordon Ramsay</span> — 
-          let AI analyze your recipe
+
+
+          <p className="text-lg sm:text-xl lg:text-2xl text-white/60 max-w-2xl mx-auto leading-relaxed mb-8 sm:mb-10 lg:mb-12 px-4">
+          <span className="text-emerald-300 font-medium">Hopefully</span>,{' '}
+          it works...
         </p>
         
         <div className="animate-bounce mt-16 sm:mt-20 lg:mt-26">
           <div className="flex flex-col items-center space-y-1">
             <ArrowDown className="w-5 h-5 sm:w-6 sm:h-6 text-white/60" />
-            <div className="text-white/40 text-xs sm:text-sm font-light tracking-widest">ANALYZE A RECIPE</div>
+            <div className="text-white/40 text-xs sm:text-sm font-light tracking-widest">LET'S SEE</div>
           </div>
         </div>
       </div>

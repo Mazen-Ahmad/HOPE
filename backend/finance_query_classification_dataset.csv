@@ -1,0 +1,401 @@
+id,raw_query,sub_query,financial_terms,query_type,correct_agent
+PROF_0001,What is our net profit margin for last year?,What is our net profit margin for last year?,net profit margin,calculation,profitability_agent
+PROF_0002,Show me the ROI for Personal Loan Plan A in 2024.,Show me the ROI for Personal Loan Plan A in 2024.,ROI,lookup,profitability_agent
+PROF_0003,Calculate EBITDA for Q4 2025.,Calculate EBITDA for Q4 2025.,EBITDA,calculation,profitability_agent
+PROF_0004,What was the net income for the Consumer Finance segment last quarter?,What was the net income for the Consumer Finance segment last quarter?,net income,lookup,profitability_agent
+PROF_0005,How has our gross margin changed since Q2 2025?,How has our gross margin changed since Q2 2025?,gross margin,calculation,profitability_agent
+PROF_0006,Give me the operating margin for Q1 2025.,Give me the operating margin for Q1 2025.,operating margin,lookup,profitability_agent
+PROF_0007,What is the return on equity for the Consumer Finance segment?,What is the return on equity for the Consumer Finance segment?,ROE,lookup,profitability_agent
+PROF_0008,Compute the profit margin for Premium Savings Account.,Compute the profit margin for Premium Savings Account.,profit margin,calculation,profitability_agent
+PROF_0009,What's our EBITDA margin this year?,What's our EBITDA margin this year?,EBITDA margin,calculation,profitability_agent
+PROF_0010,Show the operating profit trend over the last 4 quarters.,Show the operating profit trend over the last 4 quarters.,operating profit,lookup,profitability_agent
+PROF_0011,What is the return on assets for this quarter?,What is the return on assets for this quarter?,ROA,lookup,profitability_agent
+PROF_0012,How profitable was Gold Credit Card in 2025?,How profitable was Gold Credit Card in 2025?,profit margin,calculation,profitability_agent
+PROF_0013,Break down the net income by product for Q2 2026.,Break down the net income by product for Q2 2026.,net income,calculation,profitability_agent
+PROF_0014,What's the year-over-year growth in EBITDA?,What's the year-over-year growth in EBITDA?,EBITDA,calculation,profitability_agent
+PROF_0015,Can you calculate ROI for the Corporate Banking division?,Can you calculate ROI for the Corporate Banking division?,ROI,calculation,profitability_agent
+PROF_0016,What is our gross profit for Q2 2026?,What is our gross profit for Q2 2026?,gross profit,lookup,profitability_agent
+PROF_0017,Show operating income for Premium Savings Account.,Show operating income for Premium Savings Account.,operating income,lookup,profitability_agent
+PROF_0018,Give me a comparison of net profit margin across all products for last quarter.,Give me a comparison of net profit margin across all products for last quarter.,net profit margin,calculation,profitability_agent
+PROF_0019,What was the ROE last fiscal year?,What was the ROE last fiscal year?,ROE,lookup,profitability_agent
+PROF_0020,Calculate the net margin for Insurance Plan Beta in last year.,Calculate the net margin for Insurance Plan Beta in last year.,net margin,calculation,profitability_agent
+PROF_0021,What is the contribution margin for Platinum Credit Card?,What is the contribution margin for Platinum Credit Card?,contribution margin,calculation,profitability_agent
+PROF_0022,How much profit did the Retail division generate in Q1 2025?,How much profit did the Retail division generate in Q1 2025?,net income,lookup,profitability_agent
+PROF_0023,Show me EBITDA by segment for 2025.,Show me EBITDA by segment for 2025.,EBITDA,lookup,profitability_agent
+PROF_0024,What is the pre-tax profit margin for Q4 2025?,What is the pre-tax profit margin for Q4 2025?,pre-tax profit margin,calculation,profitability_agent
+PROF_0025,Is our operating margin improving quarter over quarter?,Is our operating margin improving quarter over quarter?,operating margin,calculation,profitability_agent
+PROF_0026,What's the gross margin percentage for Home Loan Plan B?,What's the gross margin percentage for Home Loan Plan B?,gross margin,lookup,profitability_agent
+PROF_0027,Give me the profitability ratios for Q4 2025.,Give me the profitability ratios for Q4 2025.,profitability ratio,lookup,profitability_agent
+PROF_0028,How does our net profit margin compare to last year?,How does our net profit margin compare to last year?,net profit margin,calculation,profitability_agent
+PROF_0029,What was the total operating profit for this quarter?,What was the total operating profit for this quarter?,operating profit,lookup,profitability_agent
+PROF_0030,Calculate return on equity for the Retail division in last quarter.,Calculate return on equity for the Retail division in last quarter.,ROE,calculation,profitability_agent
+PROF_0031,What is the EBIT for Q3 2025?,What is the EBIT for Q3 2025?,EBIT,lookup,profitability_agent
+PROF_0032,Show me net income trends for the past 3 quarters.,Show me net income trends for the past 3 quarters.,net income,lookup,profitability_agent
+PROF_0033,What's the profit margin breakdown across the Wealth Management unit?,What's the profit margin breakdown across the Wealth Management unit?,profit margin,calculation,profitability_agent
+PROF_0034,How much did EBITDA grow between 2025 and now?,How much did EBITDA grow between 2025 and now?,EBITDA,calculation,profitability_agent
+LIQ_0001,What is our current ratio for this quarter?,What is our current ratio for this quarter?,current ratio,calculation,liquidity_agent
+LIQ_0002,Show me the quick ratio for the SME Lending unit.,Show me the quick ratio for the SME Lending unit.,quick ratio,lookup,liquidity_agent
+LIQ_0003,What was the operating cash flow for FY2024?,What was the operating cash flow for FY2024?,operating cash flow,lookup,liquidity_agent
+LIQ_0004,Calculate free cash flow for Personal Loan Plan A.,Calculate free cash flow for Personal Loan Plan A.,free cash flow,calculation,liquidity_agent
+LIQ_0005,How much working capital do we have right now?,How much working capital do we have right now?,working capital,lookup,liquidity_agent
+LIQ_0006,What is our cash on hand for last quarter?,What is our cash on hand for last quarter?,cash on hand,lookup,liquidity_agent
+LIQ_0007,Show the liquidity ratio trend over the last year.,Show the liquidity ratio trend over the last year.,liquidity ratio,lookup,liquidity_agent
+LIQ_0008,What's the acid-test ratio for the Retail division?,What's the acid-test ratio for the Retail division?,acid-test ratio,calculation,liquidity_agent
+LIQ_0009,Calculate the current ratio for last quarter vs last quarter.,Calculate the current ratio for last quarter vs last quarter.,current ratio,calculation,liquidity_agent
+LIQ_0010,How much cash reserve does the Corporate Banking division maintain?,How much cash reserve does the Corporate Banking division maintain?,cash reserves,lookup,liquidity_agent
+LIQ_0011,What is our net cash flow for Q3 2025?,What is our net cash flow for Q3 2025?,cash flow,lookup,liquidity_agent
+LIQ_0012,Show me working capital by division for 2025.,Show me working capital by division for 2025.,working capital,lookup,liquidity_agent
+LIQ_0013,What's the quick ratio trend for the past 4 quarters?,What's the quick ratio trend for the past 4 quarters?,quick ratio,lookup,liquidity_agent
+LIQ_0014,Do we have enough liquidity to cover short-term obligations?,Do we have enough liquidity to cover short-term obligations?,liquidity ratio,calculation,liquidity_agent
+LIQ_0015,Calculate operating cash flow margin for last quarter.,Calculate operating cash flow margin for last quarter.,operating cash flow,calculation,liquidity_agent
+LIQ_0016,What is the cash conversion cycle for Mutual Fund Series 1?,What is the cash conversion cycle for Mutual Fund Series 1?,cash conversion cycle,calculation,liquidity_agent
+LIQ_0017,Show free cash flow for the Wealth Management unit in last year.,Show free cash flow for the Wealth Management unit in last year.,free cash flow,lookup,liquidity_agent
+LIQ_0018,What's our short-term liquidity position?,What's our short-term liquidity position?,liquidity ratio,lookup,liquidity_agent
+LIQ_0019,How has working capital changed since Q2 2025?,How has working capital changed since Q2 2025?,working capital,calculation,liquidity_agent
+LIQ_0020,Give me the current ratio broken down by account.,Give me the current ratio broken down by account.,current ratio,lookup,liquidity_agent
+LIQ_0021,What is the cash flow from operations for 2024?,What is the cash flow from operations for 2024?,cash flow from operations,lookup,liquidity_agent
+LIQ_0022,Calculate the quick ratio for last quarter.,Calculate the quick ratio for last quarter.,quick ratio,calculation,liquidity_agent
+LIQ_0023,How much liquid cash do we have available for Wealth Management unit?,How much liquid cash do we have available for Wealth Management unit?,cash reserves,lookup,liquidity_agent
+LIQ_0024,What's the net working capital for last year?,What's the net working capital for last year?,working capital,calculation,liquidity_agent
+LIQ_0025,Show the cash flow statement summary for Q4 2025.,Show the cash flow statement summary for Q4 2025.,cash flow,lookup,liquidity_agent
+LIQ_0026,Is our current ratio healthy compared to industry standards?,Is our current ratio healthy compared to industry standards?,current ratio,calculation,liquidity_agent
+LIQ_0027,What was the free cash flow yield for 2025?,What was the free cash flow yield for 2025?,free cash flow,calculation,liquidity_agent
+LIQ_0028,Give me the liquidity coverage ratio for the SME Lending unit.,Give me the liquidity coverage ratio for the SME Lending unit.,liquidity coverage ratio,lookup,liquidity_agent
+LIQ_0029,How much cash inflow did we see in Q1 2025?,How much cash inflow did we see in Q1 2025?,cash flow,lookup,liquidity_agent
+LIQ_0030,Calculate working capital ratio for Personal Loan Plan A.,Calculate working capital ratio for Personal Loan Plan A.,working capital ratio,calculation,liquidity_agent
+LIQ_0031,What's our cash burn rate this quarter?,What's our cash burn rate this quarter?,cash burn rate,calculation,liquidity_agent
+LIQ_0032,Show the quick ratio for all divisions in Q2 2025.,Show the quick ratio for all divisions in Q2 2025.,quick ratio,lookup,liquidity_agent
+LIQ_0033,What is the current liquidity position of the Retail division?,What is the current liquidity position of the Retail division?,liquidity ratio,lookup,liquidity_agent
+LIQ_0034,Calculate the cash flow to debt ratio for Q3 2025.,Calculate the cash flow to debt ratio for Q3 2025.,cash flow to debt ratio,calculation,liquidity_agent
+PROD_0001,Create a new product called Gold Credit Card.,Create a new product called Gold Credit Card.,product creation,crud_action,product_agent
+PROD_0002,Update the pricing for Insurance Plan Beta to reflect the new rate.,Update the pricing for Insurance Plan Beta to reflect the new rate.,product pricing,crud_action,product_agent
+PROD_0003,Delete the Insurance Plan Alpha from our product catalog.,Delete the Insurance Plan Alpha from our product catalog.,product,crud_action,product_agent
+PROD_0004,What is the current price of Personal Loan Plan A?,What is the current price of Personal Loan Plan A?,product pricing,lookup,product_agent
+PROD_0005,Add a new SKU for Mutual Fund Series 1.,Add a new SKU for Mutual Fund Series 1.,SKU,crud_action,product_agent
+PROD_0006,Change the interest rate on Insurance Plan Alpha.,Change the interest rate on Insurance Plan Alpha.,product pricing,crud_action,product_agent
+PROD_0007,Show me the product details for Platinum Credit Card.,Show me the product details for Platinum Credit Card.,product,lookup,product_agent
+PROD_0008,List all active products in our catalog.,List all active products in our catalog.,product catalog,lookup,product_agent
+PROD_0009,Update the terms and conditions for Insurance Plan Alpha.,Update the terms and conditions for Insurance Plan Alpha.,product,crud_action,product_agent
+PROD_0010,What products are currently offered under the Corporate Banking division?,What products are currently offered under the Corporate Banking division?,product catalog,lookup,product_agent
+PROD_0011,Deactivate the Fixed Deposit Plan product listing.,Deactivate the Fixed Deposit Plan product listing.,product listing,crud_action,product_agent
+PROD_0012,Create a new pricing tier for Basic Checking Account.,Create a new pricing tier for Basic Checking Account.,product pricing,crud_action,product_agent
+PROD_0013,What's the unit cost for Basic Checking Account?,What's the unit cost for Basic Checking Account?,product cost,lookup,product_agent
+PROD_0014,Modify the eligibility criteria for Personal Loan Plan A.,Modify the eligibility criteria for Personal Loan Plan A.,product,crud_action,product_agent
+PROD_0015,Show me all products launched in Q4 2025.,Show me all products launched in Q4 2025.,product catalog,lookup,product_agent
+PROD_0016,Update the SKU details for Insurance Plan Beta.,Update the SKU details for Insurance Plan Beta.,SKU,crud_action,product_agent
+PROD_0017,Remove Platinum Credit Card from the active offerings.,Remove Platinum Credit Card from the active offerings.,product,crud_action,product_agent
+PROD_0018,What is the minimum balance requirement for Product X?,What is the minimum balance requirement for Product X?,product,lookup,product_agent
+PROD_0019,Set up a new product bundle including Basic Checking Account.,Set up a new product bundle including Basic Checking Account.,product creation,crud_action,product_agent
+PROD_0020,Edit the description for Product X.,Edit the description for Product X.,product,crud_action,product_agent
+PROD_0021,How many products are currently listed under the Corporate Banking division?,How many products are currently listed under the Corporate Banking division?,product catalog,lookup,product_agent
+PROD_0022,Change the product category for Mutual Fund Series 1.,Change the product category for Mutual Fund Series 1.,product,crud_action,product_agent
+PROD_0023,Create a new variant of Product X.,Create a new variant of Product X.,product creation,crud_action,product_agent
+PROD_0024,What features does Basic Checking Account include?,What features does Basic Checking Account include?,product,lookup,product_agent
+PROD_0025,Update the fee structure for Platinum Credit Card.,Update the fee structure for Platinum Credit Card.,product pricing,crud_action,product_agent
+PROD_0026,Add Gold Credit Card to the SME Lending unit product line.,Add Gold Credit Card to the SME Lending unit product line.,product creation,crud_action,product_agent
+PROD_0027,What's the current inventory status for Personal Loan Plan A?,What's the current inventory status for Personal Loan Plan A?,inventory,lookup,product_agent
+PROD_0028,Discontinue Basic Checking Account effective next quarter.,Discontinue Basic Checking Account effective next quarter.,product,crud_action,product_agent
+PROD_0029,Show me the pricing history for Insurance Plan Alpha.,Show me the pricing history for Insurance Plan Alpha.,product pricing,lookup,product_agent
+PROD_0030,Create a promotional pricing plan for Mutual Fund Series 1.,Create a promotional pricing plan for Mutual Fund Series 1.,product pricing,crud_action,product_agent
+PROD_0031,Update the risk rating for Basic Checking Account.,Update the risk rating for Basic Checking Account.,product,crud_action,product_agent
+PROD_0032,What is the product code for Product X?,What is the product code for Product X?,SKU,lookup,product_agent
+PROD_0033,Clone the Platinum Credit Card product setup for a new region.,Clone the Platinum Credit Card product setup for a new region.,product creation,crud_action,product_agent
+PROD_0034,Adjust the tenure options available for Gold Credit Card.,Adjust the tenure options available for Gold Credit Card.,product,crud_action,product_agent
+KNOW_0001,"Hi, how are you?","Hi, how are you?",,general,knowledge_agent
+KNOW_0002,Hello!,Hello!,,general,knowledge_agent
+KNOW_0003,What can you help me with?,What can you help me with?,,general,knowledge_agent
+KNOW_0004,Good morning.,Good morning.,,general,knowledge_agent
+KNOW_0005,What is EBITDA?,What is EBITDA?,EBITDA,definition,knowledge_agent
+KNOW_0006,Can you explain what a current ratio means?,Can you explain what a current ratio means?,current ratio,definition,knowledge_agent
+KNOW_0007,What does ROI stand for?,What does ROI stand for?,ROI,definition,knowledge_agent
+KNOW_0008,What is the difference between gross margin and net margin?,What is the difference between gross margin and net margin?,gross margin;net margin,definition,knowledge_agent
+KNOW_0009,"What is working capital, in simple terms?","What is working capital, in simple terms?",working capital,definition,knowledge_agent
+KNOW_0010,Explain liquidity to me like I'm new to finance.,Explain liquidity to me like I'm new to finance.,liquidity,definition,knowledge_agent
+KNOW_0011,"Thanks, that was helpful.","Thanks, that was helpful.",,general,knowledge_agent
+KNOW_0012,Who are you?,Who are you?,,general,knowledge_agent
+KNOW_0013,What kind of questions can I ask you?,What kind of questions can I ask you?,,general,knowledge_agent
+KNOW_0014,What does profitability mean in accounting?,What does profitability mean in accounting?,profitability,definition,knowledge_agent
+KNOW_0015,Can you define quick ratio?,Can you define quick ratio?,quick ratio,definition,knowledge_agent
+KNOW_0016,What's the difference between cash flow and profit?,What's the difference between cash flow and profit?,cash flow;profit,definition,knowledge_agent
+KNOW_0017,Hey there!,Hey there!,,general,knowledge_agent
+KNOW_0018,What is a balance sheet?,What is a balance sheet?,balance sheet,definition,knowledge_agent
+KNOW_0019,Can you explain what an income statement is?,Can you explain what an income statement is?,income statement,definition,knowledge_agent
+KNOW_0020,What does EBIT mean?,What does EBIT mean?,EBIT,definition,knowledge_agent
+KNOW_0021,How does compound interest work?,How does compound interest work?,compound interest,definition,knowledge_agent
+KNOW_0022,What is the general concept of financial ratios?,What is the general concept of financial ratios?,financial ratios,definition,knowledge_agent
+KNOW_0023,"Goodbye, thanks for your help.","Goodbye, thanks for your help.",,general,knowledge_agent
+KNOW_0024,Can you explain what a SKU is used for?,Can you explain what a SKU is used for?,SKU,definition,knowledge_agent
+KNOW_0025,What's the purpose of this app?,What's the purpose of this app?,,general,knowledge_agent
+KNOW_0026,What does 'net income' generally refer to?,What does 'net income' generally refer to?,net income,definition,knowledge_agent
+KNOW_0027,Is there a difference between assets and liabilities?,Is there a difference between assets and liabilities?,assets;liabilities,definition,knowledge_agent
+KNOW_0028,What is meant by return on investment in general?,What is meant by return on investment in general?,ROI,definition,knowledge_agent
+KNOW_0029,Can you give me an overview of financial statements?,Can you give me an overview of financial statements?,financial statements,definition,knowledge_agent
+KNOW_0030,What is amortization?,What is amortization?,amortization,definition,knowledge_agent
+KNOW_0031,"Thank you, appreciate the help.","Thank you, appreciate the help.",,general,knowledge_agent
+KNOW_0032,What is depreciation in accounting terms?,What is depreciation in accounting terms?,depreciation,definition,knowledge_agent
+KNOW_0033,How are you doing today?,How are you doing today?,,general,knowledge_agent
+KNOW_0034,Can you tell me what a fiscal year is?,Can you tell me what a fiscal year is?,fiscal year,definition,knowledge_agent
+KNOW_0035,"Hi, what's our net profit margin for Q1 2025?",Hi,,general,knowledge_agent
+PROF_0035,"Hi, what's our net profit margin for Q1 2025?",What's our net profit margin for Q1 2025?,net profit margin,calculation,profitability_agent
+LIQ_0035,"What's our current ratio for 2025, and can you also update the pricing on Product Y?",What's our current ratio for 2025?,current ratio,calculation,liquidity_agent
+PROD_0035,"What's our current ratio for 2025, and can you also update the pricing on Product Y?",Can you also update the pricing on Product Y?,product pricing,crud_action,product_agent
+PROF_0036,Can you tell me the EBITDA for FY2024 and the working capital for the Consumer Finance segment?,Can you tell me the EBITDA for FY2024?,EBITDA,lookup,profitability_agent
+LIQ_0036,Can you tell me the EBITDA for FY2024 and the working capital for the Consumer Finance segment?,What is the working capital for the Consumer Finance segment?,working capital,lookup,liquidity_agent
+KNOW_0036,"What is ROI, and what was our actual ROI for Fixed Deposit Plan in last year?",What is ROI?,ROI,definition,knowledge_agent
+PROF_0037,"What is ROI, and what was our actual ROI for Fixed Deposit Plan in last year?",What was our actual ROI for Fixed Deposit Plan in last year?,ROI,calculation,profitability_agent
+PROD_0036,Create a new product called Platinum Credit Card and show me its expected profit margin.,Create a new product called Platinum Credit Card.,product creation,crud_action,product_agent
+PROF_0038,Create a new product called Platinum Credit Card and show me its expected profit margin.,Show me its expected profit margin.,profit margin,calculation,profitability_agent
+LIQ_0037,"What's the quick ratio for Q4 2025, and also, hello, thanks for helping.",What's the quick ratio for Q4 2025?,quick ratio,lookup,liquidity_agent
+KNOW_0037,"What's the quick ratio for Q4 2025, and also, hello, thanks for helping.","Hello, thanks for helping.",,general,knowledge_agent
+PROD_0037,Update the fee structure for Insurance Plan Alpha and tell me the cash flow impact for 2024.,Update the fee structure for Insurance Plan Alpha.,product pricing,crud_action,product_agent
+LIQ_0038,Update the fee structure for Insurance Plan Alpha and tell me the cash flow impact for 2024.,What is the cash flow impact for 2024?,cash flow,calculation,liquidity_agent
+KNOW_0038,"Can you explain what net income means, and what was our net income for 2024?",Can you explain what net income means?,net income,definition,knowledge_agent
+PROF_0039,"Can you explain what net income means, and what was our net income for 2024?",What was our net income for 2024?,net income,lookup,profitability_agent
+PROF_0040,What's the operating margin for Q1 2025 and the current liquidity ratio for the SME Lending unit?,What's the operating margin for Q1 2025?,operating margin,lookup,profitability_agent
+LIQ_0039,What's the operating margin for Q1 2025 and the current liquidity ratio for the SME Lending unit?,What is the current liquidity ratio for the SME Lending unit?,liquidity ratio,lookup,liquidity_agent
+PROD_0038,Delete the Insurance Plan Alpha listing and confirm our EBITDA for last quarter.,Delete the Insurance Plan Alpha listing.,product,crud_action,product_agent
+PROF_0041,Delete the Insurance Plan Alpha listing and confirm our EBITDA for last quarter.,Confirm our EBITDA for last quarter.,EBITDA,lookup,profitability_agent
+KNOW_0039,"What does working capital mean, and what's ours right now?",What does working capital mean?,working capital,definition,knowledge_agent
+LIQ_0040,"What does working capital mean, and what's ours right now?",What's our working capital right now?,working capital,lookup,liquidity_agent
+PROD_0039,Add a new SKU for Basic Checking Account and check the current ratio for Q3 2025.,Add a new SKU for Basic Checking Account.,SKU,crud_action,product_agent
+LIQ_0041,Add a new SKU for Basic Checking Account and check the current ratio for Q3 2025.,Check the current ratio for Q3 2025.,current ratio,lookup,liquidity_agent
+PROF_0042,"Good morning, can you show me the gross margin for Q2 2025?",Can you show me the gross margin for Q2 2025?,gross margin,lookup,profitability_agent
+LIQ_0042,"What's the free cash flow for FY2024, and can you also create a new pricing tier for Basic Checking Account?",What's the free cash flow for FY2024?,free cash flow,lookup,liquidity_agent
+PROD_0040,"What's the free cash flow for FY2024, and can you also create a new pricing tier for Basic Checking Account?",Can you also create a new pricing tier for Basic Checking Account?,product pricing,crud_action,product_agent
+KNOW_0040,Explain quick ratio to me and calculate ours for the Consumer Finance segment in Q4 2025.,Explain quick ratio to me.,quick ratio,definition,knowledge_agent
+LIQ_0043,Explain quick ratio to me and calculate ours for the Consumer Finance segment in Q4 2025.,Calculate our quick ratio for the Consumer Finance segment in Q4 2025.,quick ratio,calculation,liquidity_agent
+PROD_0041,Show me the product catalog and the net profit margin for Q1 2025.,Show me the product catalog.,product catalog,lookup,product_agent
+PROF_0043,Show me the product catalog and the net profit margin for Q1 2025.,What is the net profit margin for Q1 2025?,net profit margin,lookup,profitability_agent
+PROF_0044,What's the year-to-date net income?,What's the year-to-date net income?,net income,lookup,profitability_agent
+PROF_0045,Show me EBITDA margin trends for the last 6 months.,Show me EBITDA margin trends for the last 6 months.,EBITDA margin,calculation,profitability_agent
+PROF_0046,What was our ROI on the SME Lending unit last year?,What was our ROI on the SME Lending unit last year?,ROI,lookup,profitability_agent
+PROF_0047,Give me profit margin by product category.,Give me profit margin by product category.,profit margin,lookup,profitability_agent
+PROF_0048,How does operating profit compare across regions?,How does operating profit compare across regions?,operating profit,calculation,profitability_agent
+PROF_0049,What is the gross profit percentage this quarter?,What is the gross profit percentage this quarter?,gross profit,lookup,profitability_agent
+PROF_0050,Show net income for the Wealth Management unit.,Show net income for the Wealth Management unit.,net income,lookup,profitability_agent
+LIQ_0044,What's our cash position at the end of FY2024?,What's our cash position at the end of FY2024?,cash reserves,lookup,liquidity_agent
+LIQ_0045,Show working capital ratio for the SME Lending unit.,Show working capital ratio for the SME Lending unit.,working capital ratio,lookup,liquidity_agent
+LIQ_0046,What is the projected cash flow for next quarter?,What is the projected cash flow for next quarter?,cash flow,calculation,liquidity_agent
+LIQ_0047,How liquid are our short-term assets right now?,How liquid are our short-term assets right now?,liquidity ratio,calculation,liquidity_agent
+LIQ_0048,Give me the current ratio trend for the past year.,Give me the current ratio trend for the past year.,current ratio,lookup,liquidity_agent
+LIQ_0049,What's the operating cash flow margin this year?,What's the operating cash flow margin this year?,operating cash flow,calculation,liquidity_agent
+LIQ_0050,Show me free cash flow by division.,Show me free cash flow by division.,free cash flow,lookup,liquidity_agent
+PROD_0042,Create a new insurance product for young professionals.,Create a new insurance product for young professionals.,product creation,crud_action,product_agent
+PROD_0043,Update the eligibility age limit for the Gold Credit Card.,Update the eligibility age limit for the Gold Credit Card.,product,crud_action,product_agent
+PROD_0044,What's the current SKU count in our catalog?,What's the current SKU count in our catalog?,SKU,lookup,product_agent
+PROD_0045,Remove the discontinued Fixed Deposit Plan from listings.,Remove the discontinued Fixed Deposit Plan from listings.,product,crud_action,product_agent
+PROD_0046,Add a cashback feature to the Platinum Credit Card.,Add a cashback feature to the Platinum Credit Card.,product,crud_action,product_agent
+PROD_0047,What is the annual fee for the Gold Credit Card?,What is the annual fee for the Gold Credit Card?,product pricing,lookup,product_agent
+PROD_0048,Create a joint account product variant.,Create a joint account product variant.,product creation,crud_action,product_agent
+PROD_0049,Update the minimum deposit requirement for Basic Checking Account.,Update the minimum deposit requirement for Basic Checking Account.,product,crud_action,product_agent
+PROD_0050,Show me all products under the Consumer Finance segment.,Show me all products under the Consumer Finance segment.,product catalog,lookup,product_agent
+KNOW_0041,What time zone are you operating in?,What time zone are you operating in?,,general,knowledge_agent
+KNOW_0042,Can you explain what a fiscal quarter is?,Can you explain what a fiscal quarter is?,fiscal quarter,definition,knowledge_agent
+KNOW_0043,What's the meaning of accrual accounting?,What's the meaning of accrual accounting?,accrual accounting,definition,knowledge_agent
+KNOW_0044,Nice to meet you.,Nice to meet you.,,general,knowledge_agent
+KNOW_0045,What does 'YoY' mean?,What does 'YoY' mean?,YoY,definition,knowledge_agent
+KNOW_0046,Can you define what a balance sheet liability is?,Can you define what a balance sheet liability is?,balance sheet,definition,knowledge_agent
+KNOW_0047,What is the general idea behind financial forecasting?,What is the general idea behind financial forecasting?,financial forecasting,definition,knowledge_agent
+KNOW_0048,"How do you calculate percentages, generally speaking?","How do you calculate percentages, generally speaking?",,general,knowledge_agent
+KNOW_0049,What's the difference between revenue and profit?,What's the difference between revenue and profit?,revenue;profit,definition,knowledge_agent
+PROF_0051,What is the monthly trend of bank-wide net interest margin in the last 2 months?,What is the monthly trend of bank-wide net interest margin in the last 2 months?,net interest margin;NIM,calculation,profitability_agent
+PROF_0052,What's our net interest margin for Q2 2025?,What's our net interest margin for Q2 2025?,net interest margin,calculation,profitability_agent
+PROF_0053,Show me the NIM trend over the last 6 months.,Show me the NIM trend over the last 6 months.,NIM,lookup,profitability_agent
+PROF_0054,How has net interest income changed since Q2 2025?,How has net interest income changed since Q2 2025?,net interest income,calculation,profitability_agent
+PROF_0055,What is the interest income earned on loans for FY2024?,What is the interest income earned on loans for FY2024?,interest income,lookup,profitability_agent
+PROF_0056,Calculate the yield spread for the last 2 months.,Calculate the yield spread for the last 2 months.,yield spread,calculation,profitability_agent
+PROF_0057,What's our cost-to-income ratio this quarter?,What's our cost-to-income ratio this quarter?,cost-to-income ratio,lookup,profitability_agent
+PROF_0058,Show me non-interest income for the the branch network.,Show me non-interest income for the the branch network.,non-interest income,lookup,profitability_agent
+PROF_0059,What is the fee income generated in Q4 2025?,What is the fee income generated in Q4 2025?,fee income,lookup,profitability_agent
+PROF_0060,How is margin compression affecting profitability this year?,How is margin compression affecting profitability this year?,margin compression,calculation,profitability_agent
+PROF_0061,What's the average asset yield across our loan portfolio?,What's the average asset yield across our loan portfolio?,asset yield,calculation,profitability_agent
+PROF_0062,Give me the net interest income by segment for Q2 2025.,Give me the net interest income by segment for Q2 2025.,net interest income,lookup,profitability_agent
+PROF_0063,What is the trend in interest income over the past 3 quarters?,What is the trend in interest income over the past 3 quarters?,interest income,lookup,profitability_agent
+PROF_0064,Calculate return on tangible equity for Q1 2026.,Calculate return on tangible equity for Q1 2026.,return on tangible equity,calculation,profitability_agent
+PROF_0065,What's the net interest margin compared to last year?,What's the net interest margin compared to last year?,net interest margin,calculation,profitability_agent
+PROF_0066,Show the NIM breakdown by loan category for Q2 2026.,Show the NIM breakdown by loan category for Q2 2026.,NIM,lookup,profitability_agent
+PROF_0067,What is our spread income for Corporate Banking division in FY2024?,What is our spread income for Corporate Banking division in FY2024?,spread income,lookup,profitability_agent
+PROF_0068,How much did net interest income grow in Q3 2025?,How much did net interest income grow in Q3 2025?,net interest income,calculation,profitability_agent
+PROF_0069,What's the bank-wide net interest margin right now?,What's the bank-wide net interest margin right now?,net interest margin,lookup,profitability_agent
+PROF_0070,Calculate the interest margin on the mortgage book for the last 2 months.,Calculate the interest margin on the mortgage book for the last 2 months.,interest margin,calculation,profitability_agent
+PROF_0071,Show me the cost-to-income trend for the SME Lending unit.,Show me the cost-to-income trend for the SME Lending unit.,cost-to-income ratio,lookup,profitability_agent
+PROF_0072,What is the RAROC for Personal Loan Plan A?,What is the RAROC for Personal Loan Plan A?,RAROC,calculation,profitability_agent
+PROF_0073,How does our net interest margin compare across branches?,How does our net interest margin compare across branches?,net interest margin,calculation,profitability_agent
+PROF_0074,What was the yield on earning assets for FY2025?,What was the yield on earning assets for FY2025?,yield on earning assets,lookup,profitability_agent
+PROF_0075,Give me the fee income trend for the past year.,Give me the fee income trend for the past year.,fee income,lookup,profitability_agent
+PROF_0076,What is the non-interest income ratio for last year?,What is the non-interest income ratio for last year?,non-interest income,calculation,profitability_agent
+PROF_0077,Show the net interest margin for the Corporate Banking division over the last 4 quarters.,Show the net interest margin for the Corporate Banking division over the last 4 quarters.,net interest margin,lookup,profitability_agent
+PROF_0078,What's driving the margin compression this quarter?,What's driving the margin compression this quarter?,margin compression,calculation,profitability_agent
+PROF_0079,Calculate the net interest income to assets ratio.,Calculate the net interest income to assets ratio.,net interest income,calculation,profitability_agent
+PROF_0080,What is our current NIM versus the industry benchmark?,What is our current NIM versus the industry benchmark?,NIM,calculation,profitability_agent
+PROF_0081,Show me the profitability impact of falling interest margins.,Show me the profitability impact of falling interest margins.,net interest margin,calculation,profitability_agent
+PROF_0082,What's the average yield spread across our deposit products?,What's the average yield spread across our deposit products?,yield spread,calculation,profitability_agent
+PROF_0083,Calculate EBITDA margin for last year.,Calculate EBITDA margin for last year.,EBITDA margin,calculation,profitability_agent
+PROF_0084,What is the net profit for the SME Lending unit in 2024?,What is the net profit for the SME Lending unit in 2024?,net profit,lookup,profitability_agent
+PROF_0085,Show me ROI on capital deployed for Basic Checking Account.,Show me ROI on capital deployed for Basic Checking Account.,ROI,calculation,profitability_agent
+PROF_0086,What's our operating profit for Q3 2025?,What's our operating profit for Q3 2025?,operating profit,lookup,profitability_agent
+PROF_0087,Calculate gross margin for Premium Savings Account in Q3 2025.,Calculate gross margin for Premium Savings Account in Q3 2025.,gross margin,calculation,profitability_agent
+PROF_0088,What was ROE for the Consumer Finance segment last fiscal year?,What was ROE for the Consumer Finance segment last fiscal year?,ROE,lookup,profitability_agent
+PROF_0089,Give me net income growth rate for the last 6 months.,Give me net income growth rate for the last 6 months.,net income,calculation,profitability_agent
+PROF_0090,What is our EBITDA for 2025?,What is our EBITDA for 2025?,EBITDA,lookup,profitability_agent
+PROF_0091,Show profit margin trend for Premium Savings Account over the last year.,Show profit margin trend for Premium Savings Account over the last year.,profit margin,lookup,profitability_agent
+PROF_0092,What's the return on assets for 2024?,What's the return on assets for 2024?,ROA,lookup,profitability_agent
+PROF_0093,Calculate the contribution margin for Product Y.,Calculate the contribution margin for Product Y.,contribution margin,calculation,profitability_agent
+PROF_0094,How profitable was the Wealth Management unit in FY2024?,How profitable was the Wealth Management unit in FY2024?,profit margin,calculation,profitability_agent
+PROF_0095,What is the pre-tax profit for Q1 2026?,What is the pre-tax profit for Q1 2026?,pre-tax profit,lookup,profitability_agent
+PROF_0096,Show me EBIT by segment for 2025.,Show me EBIT by segment for 2025.,EBIT,lookup,profitability_agent
+PROF_0097,What's the year-over-year net income growth?,What's the year-over-year net income growth?,net income,calculation,profitability_agent
+PROF_0098,Calculate operating margin for the Consumer Finance segment.,Calculate operating margin for the Consumer Finance segment.,operating margin,calculation,profitability_agent
+PROF_0099,What is our total profitability across all divisions for last quarter?,What is our total profitability across all divisions for last quarter?,profit,lookup,profitability_agent
+PROF_0100,Give me a comparison of net interest margin and net profit margin for the last 2 months.,Give me a comparison of net interest margin and net profit margin for the last 2 months.,net interest margin;net profit margin,calculation,profitability_agent
+LIQ_0051,What is our loan-to-deposit ratio for last quarter?,What is our loan-to-deposit ratio for last quarter?,loan-to-deposit ratio,calculation,liquidity_agent
+LIQ_0052,Show me the liquidity coverage ratio (LCR) this quarter.,Show me the liquidity coverage ratio (LCR) this quarter.,LCR,lookup,liquidity_agent
+LIQ_0053,What's the net stable funding ratio for the Corporate Banking division?,What's the net stable funding ratio for the Corporate Banking division?,NSFR,lookup,liquidity_agent
+LIQ_0054,How much deposit outflow did we see in Q2 2026?,How much deposit outflow did we see in Q2 2026?,deposit outflow,lookup,liquidity_agent
+LIQ_0055,What is our reserve requirement compliance status?,What is our reserve requirement compliance status?,reserve requirement,lookup,liquidity_agent
+LIQ_0056,Show interbank lending exposure for Q2 2026.,Show interbank lending exposure for Q2 2026.,interbank lending,lookup,liquidity_agent
+LIQ_0057,What's the overnight liquidity position today?,What's the overnight liquidity position today?,overnight liquidity,lookup,liquidity_agent
+LIQ_0058,Calculate the funding gap for the Consumer Finance segment.,Calculate the funding gap for the Consumer Finance segment.,funding gap,calculation,liquidity_agent
+LIQ_0059,What is our deposit base growth for last year?,What is our deposit base growth for last year?,deposit base,calculation,liquidity_agent
+LIQ_0060,Show liquid asset ratio trend for the last year.,Show liquid asset ratio trend for the last year.,liquid asset ratio,lookup,liquidity_agent
+LIQ_0061,What's the level of cash equivalents on our balance sheet?,What's the level of cash equivalents on our balance sheet?,cash equivalents,lookup,liquidity_agent
+LIQ_0062,"Do we have a contingency funding plan, and what's our current buffer?","Do we have a contingency funding plan, and what's our current buffer?",contingency funding plan,lookup,liquidity_agent
+LIQ_0063,What is the LCR for 2025 compared to the regulatory minimum?,What is the LCR for 2025 compared to the regulatory minimum?,LCR,calculation,liquidity_agent
+LIQ_0064,Show me the NSFR trend over the last 4 quarters.,Show me the NSFR trend over the last 4 quarters.,NSFR,lookup,liquidity_agent
+LIQ_0065,What's our short-term borrowing level for Q2 2026?,What's our short-term borrowing level for Q2 2026?,short-term borrowing,lookup,liquidity_agent
+LIQ_0066,Calculate the loan-to-deposit ratio for the Corporate Banking division.,Calculate the loan-to-deposit ratio for the Corporate Banking division.,loan-to-deposit ratio,calculation,liquidity_agent
+LIQ_0067,What is the current liquidity buffer against deposit outflows?,What is the current liquidity buffer against deposit outflows?,liquidity buffer;deposit outflow,calculation,liquidity_agent
+LIQ_0068,"Show me the reserve requirement shortfall, if any, for 2024.","Show me the reserve requirement shortfall, if any, for 2024.",reserve requirement,lookup,liquidity_agent
+LIQ_0069,What's our net funding position for Q3 2025?,What's our net funding position for Q3 2025?,funding gap,lookup,liquidity_agent
+LIQ_0070,Calculate the cash flow coverage ratio for 2025.,Calculate the cash flow coverage ratio for 2025.,cash flow coverage ratio,calculation,liquidity_agent
+LIQ_0071,What is the current ratio for the Consumer Finance segment?,What is the current ratio for the Consumer Finance segment?,current ratio,lookup,liquidity_agent
+LIQ_0072,Show me the quick ratio trend for the past year.,Show me the quick ratio trend for the past year.,quick ratio,lookup,liquidity_agent
+LIQ_0073,What was operating cash flow for Q4 2025?,What was operating cash flow for Q4 2025?,operating cash flow,lookup,liquidity_agent
+LIQ_0074,Calculate free cash flow for Product Y.,Calculate free cash flow for Product Y.,free cash flow,calculation,liquidity_agent
+LIQ_0075,What is our cash on hand for Q4 2025?,What is our cash on hand for Q4 2025?,cash on hand,lookup,liquidity_agent
+LIQ_0076,What's the acid-test ratio for the Corporate Banking division?,What's the acid-test ratio for the Corporate Banking division?,acid-test ratio,calculation,liquidity_agent
+LIQ_0077,How much cash reserve does the Wealth Management unit maintain?,How much cash reserve does the Wealth Management unit maintain?,cash reserves,lookup,liquidity_agent
+LIQ_0078,What is our net cash flow for Q1 2026?,What is our net cash flow for Q1 2026?,cash flow,lookup,liquidity_agent
+LIQ_0079,Show me working capital by division for Q1 2025.,Show me working capital by division for Q1 2025.,working capital,lookup,liquidity_agent
+LIQ_0080,Calculate operating cash flow margin for Q3 2025.,Calculate operating cash flow margin for Q3 2025.,operating cash flow,calculation,liquidity_agent
+LIQ_0081,What is the cash conversion cycle for Insurance Plan Alpha?,What is the cash conversion cycle for Insurance Plan Alpha?,cash conversion cycle,calculation,liquidity_agent
+LIQ_0082,Show free cash flow for the the branch network in Q2 2026.,Show free cash flow for the the branch network in Q2 2026.,free cash flow,lookup,liquidity_agent
+LIQ_0083,How has working capital changed since last year?,How has working capital changed since last year?,working capital,calculation,liquidity_agent
+LIQ_0084,What is the cash flow from operations for FY2024?,What is the cash flow from operations for FY2024?,cash flow from operations,lookup,liquidity_agent
+LIQ_0085,Calculate the quick ratio for 2025.,Calculate the quick ratio for 2025.,quick ratio,calculation,liquidity_agent
+LIQ_0086,What's the net working capital for FY2025?,What's the net working capital for FY2025?,working capital,calculation,liquidity_agent
+LIQ_0087,What was the free cash flow yield for Q1 2025?,What was the free cash flow yield for Q1 2025?,free cash flow,calculation,liquidity_agent
+LIQ_0088,Give me the liquidity coverage ratio for the Wealth Management unit.,Give me the liquidity coverage ratio for the Wealth Management unit.,liquidity coverage ratio,lookup,liquidity_agent
+LIQ_0089,How much cash inflow did we see in FY2024?,How much cash inflow did we see in FY2024?,cash flow,lookup,liquidity_agent
+LIQ_0090,Calculate working capital ratio for Product Y.,Calculate working capital ratio for Product Y.,working capital ratio,calculation,liquidity_agent
+LIQ_0091,Calculate the cash flow to debt ratio for the trailing 12 months.,Calculate the cash flow to debt ratio for the trailing 12 months.,cash flow to debt ratio,calculation,liquidity_agent
+LIQ_0092,What's the deposit-to-loan coverage for FY2024?,What's the deposit-to-loan coverage for FY2024?,loan-to-deposit ratio,lookup,liquidity_agent
+LIQ_0093,Show me our liquid asset buffer as a percentage of total assets.,Show me our liquid asset buffer as a percentage of total assets.,liquid asset ratio,calculation,liquidity_agent
+PROD_0051,What is the overdraft policy for the Overdraft Facility?,What is the overdraft policy for the Overdraft Facility?,product policy,lookup,product_agent
+PROD_0052,Update the cancellation policy for Business Current Account.,Update the cancellation policy for Business Current Account.,product policy,crud_action,product_agent
+PROD_0053,What's the refund policy on Student Savings Account?,What's the refund policy on Student Savings Account?,product policy,lookup,product_agent
+PROD_0054,Can you update the fee waiver policy for Product Y?,Can you update the fee waiver policy for Product Y?,product policy,crud_action,product_agent
+PROD_0055,What are the terms and conditions attached to Overdraft Facility?,What are the terms and conditions attached to Overdraft Facility?,product,lookup,product_agent
+PROD_0056,Change the grace period policy for Basic Checking Account.,Change the grace period policy for Basic Checking Account.,product policy,crud_action,product_agent
+PROD_0057,What is the withdrawal policy for Product Y?,What is the withdrawal policy for Product Y?,product policy,lookup,product_agent
+PROD_0058,Update the KYC document requirements for opening Fixed Deposit Plan.,Update the KYC document requirements for opening Fixed Deposit Plan.,product,crud_action,product_agent
+PROD_0059,What's our early closure policy for Gold Credit Card?,What's our early closure policy for Gold Credit Card?,product policy,lookup,product_agent
+PROD_0060,Modify the penalty policy for late payments on Insurance Plan Beta.,Modify the penalty policy for late payments on Insurance Plan Beta.,product policy,crud_action,product_agent
+PROD_0061,What is the renewal policy for Insurance Plan Beta?,What is the renewal policy for Insurance Plan Beta?,product policy,lookup,product_agent
+PROD_0062,Update the eligibility policy for Mutual Fund Series 1.,Update the eligibility policy for Mutual Fund Series 1.,product policy,crud_action,product_agent
+PROD_0063,What's the minimum balance policy for Insurance Plan Alpha?,What's the minimum balance policy for Insurance Plan Alpha?,product policy,lookup,product_agent
+PROD_0064,Change the interest rate policy applied to Premium Savings Account.,Change the interest rate policy applied to Premium Savings Account.,product policy;product pricing,crud_action,product_agent
+PROD_0065,What is the lock-in period policy for Insurance Plan Alpha?,What is the lock-in period policy for Insurance Plan Alpha?,product policy,lookup,product_agent
+PROD_0066,Create a new product called Product X.,Create a new product called Product X.,product creation,crud_action,product_agent
+PROD_0067,Update the pricing for Business Current Account to reflect the new rate.,Update the pricing for Business Current Account to reflect the new rate.,product pricing,crud_action,product_agent
+PROD_0068,Delete the Premium Savings Account from our product catalog.,Delete the Premium Savings Account from our product catalog.,product,crud_action,product_agent
+PROD_0069,Add a new SKU for Overdraft Facility.,Add a new SKU for Overdraft Facility.,SKU,crud_action,product_agent
+PROD_0070,Show me the product details for Personal Loan Plan A.,Show me the product details for Personal Loan Plan A.,product,lookup,product_agent
+PROD_0071,What products are currently offered under the bank-wide?,What products are currently offered under the bank-wide?,product catalog,lookup,product_agent
+PROD_0072,Deactivate the Student Savings Account product listing.,Deactivate the Student Savings Account product listing.,product listing,crud_action,product_agent
+PROD_0073,Create a new pricing tier for Business Current Account.,Create a new pricing tier for Business Current Account.,product pricing,crud_action,product_agent
+PROD_0074,What's the unit cost for Insurance Plan Alpha?,What's the unit cost for Insurance Plan Alpha?,product cost,lookup,product_agent
+PROD_0075,Show me all products launched in Q1 2025.,Show me all products launched in Q1 2025.,product catalog,lookup,product_agent
+PROD_0076,Remove Gold Credit Card from the active offerings.,Remove Gold Credit Card from the active offerings.,product,crud_action,product_agent
+PROD_0077,What is the minimum balance requirement for Insurance Plan Beta?,What is the minimum balance requirement for Insurance Plan Beta?,product,lookup,product_agent
+PROD_0078,Set up a new product bundle including Insurance Plan Alpha.,Set up a new product bundle including Insurance Plan Alpha.,product creation,crud_action,product_agent
+PROD_0079,Edit the description for Mutual Fund Series 1.,Edit the description for Mutual Fund Series 1.,product,crud_action,product_agent
+PROD_0080,How many products are currently listed under the the branch network?,How many products are currently listed under the the branch network?,product catalog,lookup,product_agent
+PROD_0081,Create a new variant of Student Savings Account.,Create a new variant of Student Savings Account.,product creation,crud_action,product_agent
+PROD_0082,What features does Platinum Credit Card include?,What features does Platinum Credit Card include?,product,lookup,product_agent
+PROD_0083,Update the fee structure for Premium Savings Account.,Update the fee structure for Premium Savings Account.,product pricing,crud_action,product_agent
+PROD_0084,What's the current inventory status for Insurance Plan Alpha?,What's the current inventory status for Insurance Plan Alpha?,inventory,lookup,product_agent
+PROD_0085,Discontinue Overdraft Facility effective next quarter.,Discontinue Overdraft Facility effective next quarter.,product,crud_action,product_agent
+PROD_0086,Show me the pricing history for Home Loan Plan B.,Show me the pricing history for Home Loan Plan B.,product pricing,lookup,product_agent
+PROD_0087,Create a promotional pricing plan for Fixed Deposit Plan.,Create a promotional pricing plan for Fixed Deposit Plan.,product pricing,crud_action,product_agent
+PROD_0088,What is the product code for Insurance Plan Alpha?,What is the product code for Insurance Plan Alpha?,SKU,lookup,product_agent
+PROD_0089,Clone the Insurance Plan Alpha product setup for a new region.,Clone the Insurance Plan Alpha product setup for a new region.,product creation,crud_action,product_agent
+PROD_0090,Adjust the tenure options available for Student Savings Account.,Adjust the tenure options available for Student Savings Account.,product,crud_action,product_agent
+PROD_0091,What is the joint-holder policy for Business Current Account?,What is the joint-holder policy for Business Current Account?,product policy,lookup,product_agent
+PROD_0092,Update the auto-renewal policy for Product X.,Update the auto-renewal policy for Product X.,product policy,crud_action,product_agent
+PROD_0093,What's the nomination policy for Product Y?,What's the nomination policy for Product Y?,product policy,lookup,product_agent
+PROD_0094,Change the documentation requirement policy for opening Mutual Fund Series 1.,Change the documentation requirement policy for opening Mutual Fund Series 1.,product policy,crud_action,product_agent
+PROD_0095,What is the closure penalty policy for Basic Checking Account?,What is the closure penalty policy for Basic Checking Account?,product policy,lookup,product_agent
+PROD_0096,Update the transfer policy between Overdraft Facility and other accounts.,Update the transfer policy between Overdraft Facility and other accounts.,product policy,crud_action,product_agent
+PROD_0097,What's the dormancy policy applied to Fixed Deposit Plan?,What's the dormancy policy applied to Fixed Deposit Plan?,product policy,lookup,product_agent
+KNOW_0050,What policies are banks required to have in place for customer service?,What policies are banks required to have in place for customer service?,,general,knowledge_agent
+KNOW_0051,What are the general compliance requirements for banks under KYC regulations?,What are the general compliance requirements for banks under KYC regulations?,KYC,definition,knowledge_agent
+KNOW_0052,Can you explain what a bank's customer service policy typically includes?,Can you explain what a bank's customer service policy typically includes?,,definition,knowledge_agent
+KNOW_0053,"What is net interest margin, in simple terms?","What is net interest margin, in simple terms?",net interest margin,definition,knowledge_agent
+KNOW_0054,What does LCR stand for?,What does LCR stand for?,LCR,definition,knowledge_agent
+KNOW_0055,Can you explain what AML compliance means?,Can you explain what AML compliance means?,AML,definition,knowledge_agent
+KNOW_0056,What are the standard regulatory policies banks must follow?,What are the standard regulatory policies banks must follow?,,general,knowledge_agent
+KNOW_0057,What is a KYC policy in general?,What is a KYC policy in general?,KYC,definition,knowledge_agent
+KNOW_0058,How do banks typically handle customer complaints as per policy?,How do banks typically handle customer complaints as per policy?,,general,knowledge_agent
+KNOW_0059,What's the general concept behind liquidity coverage ratio?,What's the general concept behind liquidity coverage ratio?,liquidity coverage ratio,definition,knowledge_agent
+KNOW_0060,Can you explain data privacy regulations for banks?,Can you explain data privacy regulations for banks?,,definition,knowledge_agent
+KNOW_0061,What is meant by regulatory capital?,What is meant by regulatory capital?,regulatory capital,definition,knowledge_agent
+KNOW_0062,Explain what Basel III is in simple terms.,Explain what Basel III is in simple terms.,Basel III,definition,knowledge_agent
+KNOW_0063,What's the general definition of a loan-to-deposit ratio?,What's the general definition of a loan-to-deposit ratio?,loan-to-deposit ratio,definition,knowledge_agent
+KNOW_0064,What consumer protection policies apply to banks in general?,What consumer protection policies apply to banks in general?,,general,knowledge_agent
+KNOW_0065,Can you explain what fair lending practices are?,Can you explain what fair lending practices are?,,definition,knowledge_agent
+KNOW_0066,What is the general grievance redressal policy banks must follow?,What is the general grievance redressal policy banks must follow?,,general,knowledge_agent
+KNOW_0067,What does NIM mean?,What does NIM mean?,NIM,definition,knowledge_agent
+KNOW_0068,"What is a reserve requirement, generally speaking?","What is a reserve requirement, generally speaking?",reserve requirement,definition,knowledge_agent
+KNOW_0069,Can you explain what NSFR means in banking?,Can you explain what NSFR means in banking?,NSFR,definition,knowledge_agent
+KNOW_0070,What are anti-money-laundering policies in general?,What are anti-money-laundering policies in general?,AML,definition,knowledge_agent
+KNOW_0071,What is the difference between compliance and regulation?,What is the difference between compliance and regulation?,,definition,knowledge_agent
+KNOW_0072,"Hi, good afternoon.","Hi, good afternoon.",,general,knowledge_agent
+KNOW_0073,"Hey, what's up?","Hey, what's up?",,general,knowledge_agent
+KNOW_0074,Can you help me understand banking terminology?,Can you help me understand banking terminology?,,general,knowledge_agent
+KNOW_0075,What's a typical data retention policy for financial institutions?,What's a typical data retention policy for financial institutions?,,definition,knowledge_agent
+KNOW_0076,What is meant by 'know your customer'?,What is meant by 'know your customer'?,KYC,definition,knowledge_agent
+KNOW_0077,Can you explain what a cooling-off period generally means in finance?,Can you explain what a cooling-off period generally means in finance?,,definition,knowledge_agent
+KNOW_0078,What is a fiduciary duty?,What is a fiduciary duty?,fiduciary duty,definition,knowledge_agent
+KNOW_0079,What general standards govern customer data protection in banking?,What general standards govern customer data protection in banking?,,definition,knowledge_agent
+KNOW_0080,"Thanks a lot, that helps!","Thanks a lot, that helps!",,general,knowledge_agent
+KNOW_0081,What is the purpose of a central bank?,What is the purpose of a central bank?,,definition,knowledge_agent
+KNOW_0082,Can you explain what monetary policy means?,Can you explain what monetary policy means?,monetary policy,definition,knowledge_agent
+KNOW_0083,What's the difference between fiscal policy and monetary policy?,What's the difference between fiscal policy and monetary policy?,fiscal policy;monetary policy,definition,knowledge_agent
+KNOW_0084,"What is a credit rating, generally?","What is a credit rating, generally?",credit rating,definition,knowledge_agent
+KNOW_0085,Good evening.,Good evening.,,general,knowledge_agent
+KNOW_0086,What is meant by systemic risk in banking?,What is meant by systemic risk in banking?,systemic risk,definition,knowledge_agent
+KNOW_0087,Can you explain deposit insurance in general terms?,Can you explain deposit insurance in general terms?,deposit insurance,definition,knowledge_agent
+KNOW_0088,What is the role of a regulator in the banking sector?,What is the role of a regulator in the banking sector?,,definition,knowledge_agent
+KNOW_0089,What's a general overview of anti-fraud policies in banking?,What's a general overview of anti-fraud policies in banking?,,general,knowledge_agent
+KNOW_0090,How are you today?,How are you today?,,general,knowledge_agent
+KNOW_0091,What do banks generally mean by 'risk appetite'?,What do banks generally mean by 'risk appetite'?,risk appetite,definition,knowledge_agent
+KNOW_0092,Can you explain what stress testing means for banks?,Can you explain what stress testing means for banks?,stress testing,definition,knowledge_agent
+KNOW_0093,"What is meant by capital adequacy ratio, broadly speaking?","What is meant by capital adequacy ratio, broadly speaking?",capital adequacy ratio,definition,knowledge_agent
+KNOW_0094,What's the general policy around whistleblower protection in finance?,What's the general policy around whistleblower protection in finance?,,general,knowledge_agent
+KNOW_0095,"Can you explain what a cooling period is for loan cancellations, generally?","Can you explain what a cooling period is for loan cancellations, generally?",,definition,knowledge_agent
+KNOW_0096,What is meant by 'too big to fail'?,What is meant by 'too big to fail'?,,definition,knowledge_agent
+KNOW_0097,Nice chatting with you.,Nice chatting with you.,,general,knowledge_agent
+KNOW_0098,What is financial inclusion?,What is financial inclusion?,financial inclusion,definition,knowledge_agent
+KNOW_0099,Can you explain what open banking means?,Can you explain what open banking means?,open banking,definition,knowledge_agent
+LIQ_0094,What's our liquidity coverage ratio versus the regulatory floor for Q3 2025?,What's our liquidity coverage ratio versus the regulatory floor for Q3 2025?,liquidity coverage ratio,calculation,liquidity_agent
+LIQ_0095,How much overnight funding did we draw down last week?,How much overnight funding did we draw down last week?,overnight liquidity,lookup,liquidity_agent
+LIQ_0096,What is the projected deposit outflow under a stress scenario?,What is the projected deposit outflow under a stress scenario?,deposit outflow,calculation,liquidity_agent
+LIQ_0097,Show me the loan-to-deposit ratio trend across branches.,Show me the loan-to-deposit ratio trend across branches.,loan-to-deposit ratio,lookup,liquidity_agent
+LIQ_0098,What's the current stock of high-quality liquid assets?,What's the current stock of high-quality liquid assets?,liquid asset ratio,lookup,liquidity_agent
+LIQ_0099,Calculate the net stable funding ratio for the SME Lending unit.,Calculate the net stable funding ratio for the SME Lending unit.,NSFR,calculation,liquidity_agent
+LIQ_0100,What is our contingency funding capacity right now?,What is our contingency funding capacity right now?,contingency funding plan,lookup,liquidity_agent
+PROD_0098,What's the joint account opening policy for the Business Current Account?,What's the joint account opening policy for the Business Current Account?,product policy,lookup,product_agent
+PROD_0099,Update the standing instruction policy for the Overdraft Facility.,Update the standing instruction policy for the Overdraft Facility.,product policy,crud_action,product_agent
+PROD_0100,Create a limited-time pricing offer for the Student Savings Account.,Create a limited-time pricing offer for the Student Savings Account.,product pricing,crud_action,product_agent
+KNOW_0100,What is meant by responsible lending in the banking industry?,What is meant by responsible lending in the banking industry?,responsible lending,definition,knowledge_agent

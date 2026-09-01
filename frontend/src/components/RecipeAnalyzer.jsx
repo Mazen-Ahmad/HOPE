@@ -1,5 +1,5 @@
 import React from 'react';
-import { Loader2, Brain, Gauge, AlertCircle } from 'lucide-react';
+import { Loader2, Brain, AlertCircle, RouteIcon } from 'lucide-react';
 
 const RecipeAnalyzer = ({ 
   recipeText, 
@@ -21,10 +21,10 @@ const RecipeAnalyzer = ({
               
               <div className="text-center">
                 <h2 className="text-2xl sm:text-3xl font-light text-white mb-3 sm:mb-4">
-                  Paste Your Recipe Here
+                  Enter Your Finance Query
                 </h2>
                 <p className="text-white/60 font-light text-sm sm:text-base">
-                  Paste complete recipe for accurate analysis
+                  Ask anything — single or multi-part finance questions
                 </p>
               </div>
               
@@ -33,7 +33,7 @@ const RecipeAnalyzer = ({
                   <textarea
                     value={recipeText}
                     onChange={(e) => setRecipeText(e.target.value)}
-                    placeholder="Please provide an approximate cooking time along with the ingredients for a more accurate analysis...."
+                    placeholder="e.g. What is our net profit margin and can you update the pricing for Gold Credit Card?"
                     className="w-full h-48 sm:h-56 lg:h-64 px-4 sm:px-6 py-4 sm:py-6 bg-white/[0.03] backdrop-blur-sm border border-white/10 rounded-xl 
                              focus:border-white/20 focus:bg-white/[0.05] transition-all duration-300 
                              resize-none text-white/90 placeholder-white/40 text-sm sm:text-base leading-relaxed
@@ -45,11 +45,10 @@ const RecipeAnalyzer = ({
                     <div className="text-white/40 text-xs sm:text-sm font-light">
                       {recipeText.length} characters
                     </div>
-                    {recipeText.length > 20 && (
+                    {recipeText.length > 10 && (
                       <div className="text-emerald-400/60 text-xs sm:text-sm font-light flex items-center">
                         <AlertCircle className="w-3 h-3 sm:w-4 sm:h-4 mr-1" />
-                        <span className="hidden sm:inline">Ready for analysis</span>
-                        <span className="sm:hidden">Ready</span>
+                        <span>Ready</span>
                       </div>
                     )}
                   </div>
@@ -74,17 +73,16 @@ const RecipeAnalyzer = ({
                   {loading ? (
                     <>
                       <Loader2 className="w-5 h-5 sm:w-6 sm:h-6 mr-3 sm:mr-4 animate-spin" />
-                      <span className="text-sm sm:text-base">Analyzing Recipe Complexity...</span>
+                      <span className="text-sm sm:text-base">Routing Query...</span>
                     </>
                   ) : (
                     <>
                       <Brain className="w-5 h-5 sm:w-6 sm:h-6 mr-3 sm:mr-4 group-hover:scale-110 transition-transform duration-500" />
-                      <span>Predict Difficulty</span>
-                      <Gauge className="w-5 h-5 sm:w-6 sm:h-6 ml-3 sm:ml-4 group-hover:scale-110 transition-transform duration-500" />
+                      <span>Route Query</span>
                     </>
                   )}
                 </div>
-              </button>             
+              </button>
             </div>
           </div>
         </div>

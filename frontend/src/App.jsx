@@ -7,22 +7,20 @@ import BackgroundCanvas from './components/BackgroundCanvas';
 import HeroSection from './components/HeroSection';
 import RecipeAnalyzer from './components/RecipeAnalyzer';
 import ResultsSection from './components/ResultsSection';
-import SampleRecipes from './components/SampleRecipes';
-import HowItWorks from './components/HowItWorks';
 import Footer from './components/Footer';
 
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   const navRef = useRef(null);
-  const [recipeText, setRecipeText] = useState('');
+  const [queryText, setQueryText] = useState('');
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [showResults, setShowResults] = useState(false);
   const [animateHero, setAnimateHero] = useState(false);
 
-  const BACKEND_URL = 'https://recipe-ai-lvyy.onrender.com';
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
 
   useEffect(() => {
     setTimeout(() => setAnimateHero(true), 1000);
@@ -47,8 +45,8 @@ const App = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!recipeText.trim()) {
-      setError('Please enter a recipe to analyze');
+    if (!queryText.trim()) {
+      setError('Please enter a query');
       return;
     }
 
@@ -58,31 +56,24 @@ const App = () => {
     setShowResults(false);
 
     try {
-      const response = await fetch(`${BACKEND_URL}/api/predict-difficulty`, {
+      const response = await fetch(`${BACKEND_URL}/api/finance/route-query`, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ recipe_text: recipeText }),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query: queryText }),
       });
 
-      if (!response.ok) {
-        throw new Error(`Server error: ${response.status}`);
-      }
+      if (!response.ok) throw new Error(`Server error: ${response.status}`);
 
       const data = await response.json();
-      
-      if (data.error) {
-        throw new Error(data.message || data.error);
-      }
-      
+      if (data.error) throw new Error(data.message || data.error);
+
       setResult(data);
       setTimeout(() => setShowResults(true), 300);
     } catch (err) {
       if (err.name === 'TypeError' && err.message.includes('fetch')) {
-        setError('Unable to connect to backend server. Please ensure it\'s running.');
+        setError('Unable to connect to backend. Please ensure it\'s running on port 5000.');
       } else {
-        setError(`Analysis failed: ${err.message}`);
+        setError(`Routing failed: ${err.message}`);
       }
     } finally {
       setLoading(false);
@@ -102,28 +93,21 @@ const App = () => {
           
           <HeroSection animateHero={animateHero} />
 
-          <RecipeAnalyzer 
-            recipeText={recipeText}
-            setRecipeText={setRecipeText}
+          <RecipeAnalyzer
+            recipeText={queryText}
+            setRecipeText={setQueryText}
             loading={loading}
             error={error}
             handleSubmit={handleSubmit}
           />
 
           {result && (
-            <ResultsSection 
+            <ResultsSection
               result={result}
               showResults={showResults}
             />
           )}
 
-          <SampleRecipes 
-            setRecipeText={setRecipeText}
-            loading={loading}
-          />
-
-          <HowItWorks />
-          
           <Footer />
 
         </div>

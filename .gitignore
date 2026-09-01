@@ -1,14 +1,31 @@
-# Node modules (frontend)
+# Node
 node_modules/
 dist/
 
-# Python (backend)
+# Python
 __pycache__/
-.env
 *.pyc
+*.pyo
 venv/
+.venv/
 
-# OS-specific
-.DS_Store
+# Environment — never push secrets
+.env
+.env.*
+!.env.example
 
+# Scratch / temp files
 TestML/
+tempCodeRunnerFile.python
+backend/eval_only.py
+backend/head_check.py
+backend/eval_results.txt
+backend/label_check.txt
+backend/checkpoints/
+
+# SetFit training split indices (reproducible, not needed in repo)
+backend/models/split_indices.json
+
+# OS
+.DS_Store
+desktop.ini

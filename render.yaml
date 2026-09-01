@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: recipe-ai-backend
+    name: hope-backend
     env: python
     plan: free
     buildCommand: "cd backend && pip install -r requirements.txt"

@@ -1,0 +1,9 @@
+{
+  "query_types": ["calculation", "lookup", "definition", "crud_action", "general"],
+  "signal_groups": {
+    "profitability": ["ROI", "ROE", "margin", "net income", "EBITDA", "profit", "EBIT", "operating income", "gross profit"],
+    "liquidity": ["current ratio", "quick ratio", "cash flow", "working capital", "cash reserves", "liquidity ratio", "acid-test ratio", "cash conversion cycle"],
+    "product": ["SKU", "product", "pricing", "create", "update", "delete", "catalog", "inventory"],
+    "knowledge": ["definition", "what is", "explain", "greeting", "general finance"]
+  }
+}

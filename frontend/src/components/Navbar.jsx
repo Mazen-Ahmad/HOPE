@@ -15,7 +15,7 @@ const Navbar = ({ navRef }) => {
               <Brain className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
             </div>
           </div>
-          <div className="text-white font-thick text-sm sm:text-lg lg:text-xl tracking-widest">RECIPE AI</div>
+          <div className="text-white font-thick text-sm sm:text-lg lg:text-xl tracking-widest">HOPE</div>
         </div>
       </div>
     </nav>
