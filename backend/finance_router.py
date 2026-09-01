@@ -36,7 +36,7 @@ def decompose_query(raw_query: str) -> list[str]:
     )
     text = response.choices[0].message.content.strip()
     parsed = json.loads(text)
-    return parsed["sub_queries"]
+    return parsed["sub_queries"] or [raw_query]
 
 
 def route_query(raw_query: str) -> dict:
