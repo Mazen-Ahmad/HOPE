@@ -20,7 +20,7 @@ const App = () => {
   const [showResults, setShowResults] = useState(false);
   const [animateHero, setAnimateHero] = useState(false);
 
-  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || import.meta.env.BACKEND_URL || 'http://localhost:5000';
 
   useEffect(() => {
     setTimeout(() => setAnimateHero(true), 1000);
