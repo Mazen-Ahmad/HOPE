@@ -46,7 +46,7 @@ Response: [{query, agent, confidence, extraction}]
 - Temperature = 0 for deterministic output
 
 ### Stage 3 — SetFit with `BAAI/bge-small-en-v1.5`
-- **Why SetFit**: Designed for few-shot text classification. Achieves high accuracy with small datasets (200 rows here) by using contrastive fine-tuning on sentence pairs before training a lightweight sklearn head.
+- **Why SetFit**: Designed for few-shot text classification. Achieves high accuracy with small datasets (400 rows here) by using contrastive fine-tuning on sentence pairs before training a lightweight sklearn head.
 - **Why `bge-small-en-v1.5`**: Small (33M params), fast, strong semantic embeddings, well-suited for short finance queries.
 - **Two components saved after training**:
   - `model.safetensors` — fine-tuned sentence transformer weights (127MB)
