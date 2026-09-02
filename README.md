@@ -51,7 +51,7 @@ Response: [{query, agent, confidence, extraction}]
 - **Two components saved after training**:
   - `model.safetensors` — fine-tuned sentence transformer weights (127MB)
   - `model_head.pkl` — trained sklearn LogisticRegression head (13KB)
-- **Training**: 200 rows, 80/20 stratified split, seed=42, 3 epochs, batch size 16. Achieved 100% validation accuracy.
+- **Training**: 400 rows, 80/20 stratified split, seed=42, 3 epochs, batch size 16. Achieved 100% validation accuracy.
 - **Confidence threshold**: 0.75 — predictions below this log a warning but still return a result.
 
 ---
@@ -83,7 +83,7 @@ Config file defining:
 - `signal_groups`: keyword lists for profitability, liquidity, product, and knowledge signals — used to guide the extractor prompt
 
 ### `finance_query_classification_dataset.csv`
-Training data. 200 rows (after deduplication by sub-query), 4 classes balanced at 50 rows each:
+Training data. 400 rows (after deduplication by sub-query), 4 classes balanced at 100 rows each:
 - Columns: `id`, `raw_query`, `sub_query`, `financial_terms`, `query_type`, `correct_agent`
 - Multi-query rows are split into separate sub-query rows (e.g. a compound query produces 2–3 rows with the same `raw_query` but different `sub_query` and `correct_agent`)
 
