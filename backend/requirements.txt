@@ -5,5 +5,10 @@ pandas==2.2.2
 numpy==1.26.4
 python-dotenv==1.0.0
 openai>=1.0.0
+transformers==4.44.2
+sentence-transformers==3.3.1
+setfit>=1.0.0
+datasets>=2.14.0
+torch>=2.0.0
 scikit-learn>=1.4.0
-requests>=2.31.0
+Pillow
