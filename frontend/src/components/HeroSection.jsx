@@ -15,8 +15,8 @@ const HeroSection = ({ animateHero }) => {
 
 
           <p className="text-lg sm:text-xl lg:text-2xl text-white/60 max-w-2xl mx-auto leading-relaxed mb-8 sm:mb-10 lg:mb-12 px-4">
-          <span className="text-emerald-300 font-medium">Hopefully</span>,{' '}
-          it works...
+          <span className="text-emerald-300 font-medium">Agent </span>{' '}
+          picker model
         </p>
         
         <div className="animate-bounce mt-16 sm:mt-20 lg:mt-26">

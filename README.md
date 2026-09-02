@@ -238,3 +238,12 @@ Git LFS handles `model.safetensors` and `model_head.pkl` automatically via `.git
 |---|---|---|---|
 | `OPENROUTER_API_KEY` | `backend/.env` | Yes | OpenRouter API key for Ling LLM |
 | `VITE_BACKEND_URL` | `frontend/.env.local` | Yes (prod) | Backend URL for frontend to call |
+
+Phases:
+
+Phase 1 — Contrastive fine-tuning
+It generates pairs of sentences from your training data — same-class pairs (positive) and different-class pairs (negative). It then fine-tunes the embedding model so that same-class sentences are pulled closer together in vector space and different-class sentences are pushed apart. This is what modifies model.safetensors — the base bge-small-en-v1.5 weights get adjusted specifically for your finance classification task.
+
+Phase 2 — Classification head training
+Once the embeddings are fine-tuned, it encodes all training sentences into vectors and trains a simple sklearn LogisticRegression on top of those vectors. This is model_head.pkl — it's just a linear classifier that takes a 384-dim vector and outputs one of 4 agent labels with probabilities.
+
